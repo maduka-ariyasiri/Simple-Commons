@@ -10,7 +10,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { setUrl("https://jitpack.io") }
+        maven { url = uri("https://jitpack.io") }
+        maven(url = "https://artifactory.img.ly/artifactory/imgly")
     }
 }
 rootProject.name = "Simple-Commons"
