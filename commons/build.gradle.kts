@@ -91,7 +91,7 @@ dependencies {
     api(libs.joda.time)
     api(libs.recyclerView.fastScroller)
     api(libs.reprint)
-    implementation(files("libraries/rtl-viewpager-940f12724f.aar"))
+    api(libs.rtl.viewpager)
     api(libs.patternLockView)
     api(libs.androidx.core.ktx)
     api(libs.androidx.appcompat)
